@@ -1,0 +1,14 @@
+[package]
+name = "som"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+base64 = "0.23.1"
+cookie = "0.18.2"
+hmac-sha256 = "1.1.15"
+rand = "0.10.3"
+reqwest = {version = "0.13.5", features=["blocking", "cookies"]}
+serde_json = "1.0.154"
+url = "2.5.8"
+urlencoding = "2.1.3"
